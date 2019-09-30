@@ -1,0 +1,280 @@
+
+button {
+  cursor:pointer;
+}
+
+.buttonUnfollow {
+  margin-left: auto;
+  background: #de1818;
+  border-color:#de1818;
+  color:white;
+}
+.buttonFollow{
+  margin-left: auto;
+}
+h1 {
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.text {
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.input-sign{
+    width: 15%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+form-signin{
+    display:block;
+    align-content: center;
+    align-items: center;
+}
+
+.inputBoxes{
+  border-radius: 4px;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn:hover{
+  width: auto;
+  padding: 5px 9px;
+  background-color: rgb(231, 213, 213);
+  float: right;
+}
+
+.cancelbtn {
+  width: auto;
+  border-radius:5px;
+  background-color: #f44336;
+  font-size:13px;
+  color: white;
+  padding: 5px 9px;
+  font-weight: bold;
+  float: right;
+  border-color: #f44336;
+}
+.divupdatedelete{
+  display:block;
+  padding:10px;
+}
+.buttonupdatedel{
+  margin-left:5px;
+}
+.containerModal {
+  padding: 16px;
+  overflow:hidden;
+}
+.AllComments{
+  height:275px;
+  overflow:scroll;
+}
+.postsMade{
+  display: block;
+  margin-top:3px;
+}
+.inputComment{
+  margin-top:10px;
+  padding: 10px;
+  width: 82%;
+}
+.CommentSection{
+  display: flex;
+  justify-content: space-between;
+}
+.buttonComment{
+  margin-top:10px;
+}
+.upvoters{
+  color: var(--reddit-blue);
+  margin-left: 3px;
+  cursor:pointer;
+}
+.indivComment{
+  background-color:var(--reddit-light-grey);
+  border-radius:4px;
+  padding-top: 2px;
+  padding-left:6px;
+  padding-bottom:2px;
+  margin-bottom:5px;
+}
+
+.postImageBig {
+  max-width: 100%;
+  max-height: 100%;
+}
+.inputComment{
+}
+.containerModalVotes {
+  padding: 16px;
+  height:200px;
+  overflow:scroll;
+}
+.containerModalComments {
+  padding: 16px;
+}
+.containerModalPosts{
+  padding: 16px;
+}
+#inputTitlePost{
+  width:100%;
+}
+#inputContent{
+  overflow:scroll;
+  height: 200px;
+  width:100%;
+  height:173px;
+  margin:8px 5px 8px 0px;
+  resize: none;
+}
+
+.containerModalHeader {
+  padding: 5px;
+  overflow:hidden
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  display: none; 
+}
+.divSubmitPost{
+  display:flex;
+  align-items: flex-end;
+}
+
+.modalInside {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: 40%; 
+  margin: 5% auto 15% auto; 
+}
+.buttonSubmitPost{
+  margin-left:auto;
+}
+
+/* Add Zoom Animation */
+.animate {
+  animation: animatezoom 0.7s;
+  -webkit-animation: animatezoom 0.7s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.alert {
+  width:45%;
+  color: white;
+  opacity: 1;
+  padding: 15px;
+  margin:5px auto 15px auto;
+  border-radius:3px;
+
+}
+
+.alert.success {
+  background-color: rgb(167, 211, 168);
+  border-radius:5px;
+  border-color: rgb(79, 128, 80);
+}
+.alertmessage{
+  display:inline;
+  color:rgb(79, 128, 80);
+}
+.imagePostStyle{
+  display: block;
+  margin-top:5px;
+}
+
+.imgTitle {
+  width:100px;
+  margin: 10px 4px auto 10px;
+  height: auto;
+  cursor: pointer;
+}
+
+.commentUpVotes {
+  display : flex;
+}
+.following{
+  cursor:pointer;
+  text-decoration:underline;
+}
+.comments {
+  font-family:Arial;
+  font-size:12px;
+  margin-right:12px;
+  color: var(--reddit-blue);
+  cursor:pointer;
+}
+.upvotes {
+  font-family:Arial;
+  font-size:12px;
+  color: var(--reddit-blue);
+  cursor:pointer;
+
+}
+.commentupauth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voteIcon{
+  cursor: pointer;
+  margin:17px 5px;
+  width:100%;
+}
+
+.voteIcon:hover{
+  color:orange;
+}
+
+.notVote{
+  color:gray;
+}
+.containerModalProfile{
+  padding: 16px;
+}
+
+.labelProfile{
+  color:var(--reddit-blue);
+  text-transform: uppercase;
+  font-size:12px;
+}
+.updateButton{
+  margin-left:auto;
+}
+.divlabel{
+  display:flex;
+}
+.labeltitle{
+  margin-left:auto;
+  margin-right:auto;
+}
